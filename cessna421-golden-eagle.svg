@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Cessna 421 Golden Eagle</title>
+  <desc id="desc">A polished aviation-style vector illustration of a twin-engine Cessna 421 in a red, gold and ivory livery.</desc>
+  <defs>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#fffdf5"/>
+      <stop offset="0.45" stop-color="#eee8d7"/>
+      <stop offset="1" stop-color="#bdb9ae"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f3e5"/>
+      <stop offset="1" stop-color="#b8b5ad"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d101c"/>
+      <stop offset="0.5" stop-color="#d52231"/>
+      <stop offset="1" stop-color="#7b0c16"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b97800"/>
+      <stop offset="0.48" stop-color="#ffe26a"/>
+      <stop offset="1" stop-color="#c98b00"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9bc4d4"/>
+      <stop offset="0.5" stop-color="#294b5e"/>
+      <stop offset="1" stop-color="#101e2a"/>
+    </linearGradient>
+    <radialGradient id="prop" cx="50%" cy="50%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".85"/>
+      <stop offset=".18" stop-color="#ffd84a" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#d52231" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- presentation glow -->
+  <ellipse cx="610" cy="595" rx="430" ry="34" fill="#d52231" opacity=".13" filter="url(#soft)"/>
+  <ellipse cx="610" cy="588" rx="310" ry="12" fill="#ffe26a" opacity=".12" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <!-- far wing -->
+    <path d="M565 355 L1040 210 Q1080 199 1101 216 L1090 238 L628 420 Z" fill="url(#wing)" stroke="#22252a" stroke-width="7"/>
+    <path d="M640 382 L1087 220 L1094 236 L651 404 Z" fill="url(#red)" opacity=".96"/>
+    <path d="M660 375 L1081 224 L1087 232 L669 389 Z" fill="url(#gold)"/>
+
+    <!-- near wing -->
+    <path d="M594 382 L152 214 Q117 201 96 222 L110 246 L528 437 Z" fill="url(#wing)" stroke="#22252a" stroke-width="8"/>
+    <path d="M529 404 L112 226 L105 241 L516 424 Z" fill="url(#red)"/>
+    <path d="M514 411 L119 239 L113 247 L506 426 Z" fill="url(#gold)"/>
+
+    <!-- engine nacelles -->
+    <g>
+      <path d="M365 347 C343 324 337 291 352 263 C365 240 393 230 420 239 C444 248 454 272 447 299 L425 370 Z" fill="url(#ivory)" stroke="#202329" stroke-width="7"/>
+      <ellipse cx="397" cy="267" rx="39" ry="42" fill="#1b2026" stroke="#d0c9b9" stroke-width="6"/>
+      <ellipse cx="397" cy="267" rx="29" ry="31" fill="url(#glass)"/>
+      <circle cx="397" cy="267" r="11" fill="#111820" stroke="#f6c400" stroke-width="3"/>
+      <path d="M352 319 L433 297 L427 323 L360 342 Z" fill="url(#red)"/>
+      <path d="M360 340 L425 322 L421 330 L365 347 Z" fill="url(#gold)"/>
+      <circle cx="397" cy="267" r="62" fill="url(#prop)" opacity=".22"/>
+      <g stroke="#f5ead0" stroke-width="5" stroke-linecap="round" opacity=".65">
+        <path d="M397 267 L351 220"/><path d="M397 267 L439 215"/><path d="M397 267 L458 281"/>
+      </g>
+    </g>
+
+    <g>
+      <path d="M738 347 C716 324 710 291 725 263 C738 240 766 230 793 239 C817 248 827 272 820 299 L798 370 Z" fill="url(#ivory)" stroke="#202329" stroke-width="7"/>
+      <ellipse cx="770" cy="267" rx="39" ry="42" fill="#1b2026" stroke="#d0c9b9" stroke-width="6"/>
+      <ellipse cx="770" cy="267" rx="29" ry="31" fill="url(#glass)"/>
+      <circle cx="770" cy="267" r="11" fill="#111820" stroke="#f6c400" stroke-width="3"/>
+      <path d="M725 319 L806 297 L800 323 L733 342 Z" fill="url(#red)"/>
+      <path d="M733 340 L798 322 L794 330 L738 347 Z" fill="url(#gold)"/>
+      <circle cx="770" cy="267" r="62" fill="url(#prop)" opacity=".22"/>
+      <g stroke="#f5ead0" stroke-width="5" stroke-linecap="round" opacity=".65">
+        <path d="M770 267 L724 220"/><path d="M770 267 L812 215"/><path d="M770 267 L831 281"/>
+      </g>
+    </g>
+
+    <!-- tail and fuselage -->
+    <path d="M571 394 L473 509 L495 520 L616 430 Z" fill="url(#ivory)" stroke="#202329" stroke-width="8"/>
+    <path d="M486 511 L548 452 L559 466 L503 522 Z" fill="url(#red)"/>
+    <path d="M501 518 L554 464 L561 471 L508 524 Z" fill="url(#gold)"/>
+
+    <path d="M545 360 C575 315 620 286 684 279 C742 273 793 289 827 319 C851 340 860 367 850 391 C836 424 794 448 736 461 C672 476 607 470 566 442 C538 423 529 392 545 360 Z" fill="url(#ivory)" stroke="#202329" stroke-width="9"/>
+
+    <!-- fuselage red/gold cheatlines -->
+    <path d="M541 387 C620 368 700 354 770 360 C806 363 834 371 851 382 C847 395 839 405 828 414 C760 398 684 401 594 427 C571 419 554 406 541 387 Z" fill="url(#red)"/>
+    <path d="M551 396 C636 378 710 370 777 375 C806 377 828 382 844 389 C840 394 836 399 831 403 C748 387 666 398 582 422 C569 415 559 406 551 396 Z" fill="url(#gold)"/>
+
+    <!-- cockpit glazing -->
+    <path d="M698 289 C746 286 783 299 810 322 C821 332 829 343 832 354 L756 351 L706 335 Z" fill="#111a22" stroke="#252d35" stroke-width="5"/>
+    <path d="M712 294 L747 297 L737 335 L704 326 Z" fill="url(#glass)" opacity=".92"/>
+    <path d="M753 298 L781 305 L793 339 L744 335 Z" fill="url(#glass)" opacity=".9"/>
+    <path d="M788 307 L808 320 L820 343 L800 340 Z" fill="#4c7180" opacity=".78"/>
+
+    <!-- nose and spinner -->
+    <path d="M823 342 C852 348 876 365 883 382 C875 399 854 410 828 414 L814 394 L822 370 Z" fill="url(#ivory)" stroke="#202329" stroke-width="7"/>
+    <ellipse cx="874" cy="382" rx="15" ry="18" fill="url(#gold)" stroke="#5c4300" stroke-width="4"/>
+
+    <!-- windows -->
+    <g fill="#263b48" stroke="#d4cdbf" stroke-width="3">
+      <path d="M650 335 L674 329 L683 353 L653 359 Z"/>
+      <path d="M616 344 L639 338 L648 363 L619 369 Z"/>
+      <path d="M583 355 L606 349 L614 376 L586 381 Z"/>
+    </g>
+
+    <!-- tail fin -->
+    <path d="M561 363 L538 177 L565 164 L620 342 Z" fill="url(#ivory)" stroke="#202329" stroke-width="8"/>
+    <path d="M544 182 L566 169 L598 331 L574 340 Z" fill="url(#red)"/>
+    <path d="M557 176 L567 170 L590 329 L579 333 Z" fill="url(#gold)"/>
+
+    <!-- aircraft emblem -->
+    <path d="M646 420 C688 434 739 434 781 421" fill="none" stroke="#8f101c" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  </g>
+</svg>
